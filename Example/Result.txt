@@ -1,0 +1,237 @@
+{
+  "Templating example": "For more information about templating, click the blue 'i' above this editor",
+  "Orders": [
+      {
+        "orderId": "41235",
+        "username": "Devyn_Herzog",
+        "barcode": "8868a41a-452d-4120-96d0-8c6bfbe56754",
+      },
+      {
+        "orderId": "32531",
+        "username": "Rod_Schulist99",
+        "barcode": "aad65feb-b6b3-434e-850f-29c22a86f818",
+      },
+      {
+        "orderId": "66176",
+        "username": "Barton_DuBuque43",
+        "barcode": "60e4c58d-fa9c-4031-935d-3adacf2e39b5",
+      },
+      {
+        "orderId": "90972",
+        "username": "Nils.Rau",
+        "barcode": "6d938532-4c66-4a40-b016-845699a459ad",
+      },
+      {
+        "orderId": "84597",
+        "username": "Alexandrea.Rutherford49",
+        "barcode": "49b5f883-8cc6-439e-836b-1b8d9ff48dea",
+      },
+      {
+        "orderId": "83797",
+        "username": "Emely_Corkery",
+        "barcode": "7b2ede47-455d-4877-9c78-53553a43b714",
+      },
+      {
+        "orderId": "20139",
+        "username": "Kristoffer14",
+        "barcode": "de80ab41-5f7e-49bb-8605-aa88e3732d29",
+      },
+      {
+        "orderId": "99483",
+        "username": "Lindsey_Nikolaus79",
+        "barcode": "1717c056-a840-4a15-9f45-8ccdc6a2f3c7",
+      },
+      {
+        "orderId": "42033",
+        "username": "Cristopher53",
+        "barcode": "f8164cf4-bbbe-454a-a2ed-14c3ae5718ac",
+      },
+      {
+        "orderId": "97660",
+        "username": "Angelo_Bergstrom",
+        "barcode": "e09dcbbf-9a68-47f9-824a-ada4814f6698",
+      }
+  ],
+  "total": "10"
+}{
+  "Templating example": "For more information about templating, click the blue 'i' above this editor",
+  "users": [
+      {
+        "userId": "40531",
+        "firstname": "Noel",
+        "lastname": "Turner",
+        "friends": [
+            {
+              "id": "00ea3287-5ee4-4077-9741-fb8b2697d93f"
+            },
+            {
+              "id": "dd2f0aea-f864-4321-9454-079fa2b06708"
+            },
+            {
+              "id": "6fa66ea2-65cd-4781-a5ba-6e5b28c0274c"
+            },
+            {
+              "id": "f49ad4f2-84da-4e7b-8bd6-cc83163237b7"
+            }
+        ]
+      },
+      {
+        "userId": "25626",
+        "firstname": "Gustave",
+        "lastname": "Ernser",
+        "friends": [
+            {
+              "id": "2ae22d7a-05fd-41c0-af11-c793aeabb01f"
+            },
+            {
+              "id": "82cd5980-06ae-4c37-9691-99e27ee85cf3"
+            },
+            {
+              "id": "24dd57db-999e-4554-ae1f-2c4f04a2a06d"
+            },
+            {
+              "id": "dccaa21f-a540-470c-afeb-56d84a4647fa"
+            },
+            {
+              "id": "29b4b03b-1c02-424d-b19e-5d527118b1c2"
+            }
+        ]
+      },
+      {
+        "userId": "49590",
+        "firstname": "Constantin",
+        "lastname": "Homenick",
+        "friends": [
+            {
+              "id": "6b9a14b9-13e9-4461-a041-b4f4a42ec971"
+            }
+        ]
+      },
+      {
+        "userId": "42100",
+        "firstname": "Rick",
+        "lastname": "Dibbert",
+        "friends": [
+            {
+              "id": "9ff39363-3243-4ac0-9b9b-550fccd0ac6a"
+            }
+        ]
+      },
+      {
+        "userId": "26834",
+        "firstname": "Richie",
+        "lastname": "Corwin",
+        "friends": [
+            {
+              "id": "18af3310-42a4-47f9-b986-1bc7444d3a07"
+            },
+            {
+              "id": "1ff373dc-5a93-4875-991c-871e695ddf8c"
+            },
+            {
+              "id": "6aef3d38-ab7a-46f6-9331-64fd89ece094"
+            },
+            {
+              "id": "1451e3d2-a10b-41eb-8411-0c48f5bf431b"
+            }
+        ]
+      },
+      {
+        "userId": "72762",
+        "firstname": "Belle",
+        "lastname": "Gutkowski",
+        "friends": [
+            {
+              "id": "b48bf361-a29c-4be6-a524-79e18e009c43"
+            },
+            {
+              "id": "dc5c0fb2-5b11-43a4-bc80-3c260572c218"
+            }
+        ]
+      },
+      {
+        "userId": "18126",
+        "firstname": "Cary",
+        "lastname": "Schimmel",
+        "friends": [
+        ]
+      },
+      {
+        "userId": "35374",
+        "firstname": "Corrine",
+        "lastname": "Thompson",
+        "friends": [
+            {
+              "id": "b4daa030-ce9f-40cb-8e2b-2c9a395bb250"
+            },
+            {
+              "id": "6aea6e5b-bf84-4f48-b16f-ca297c2f3d0e"
+            },
+            {
+              "id": "e08d54e3-2704-4950-9990-dfdcf2ae4ec6"
+            },
+            {
+              "id": "2093b1fd-8796-4b21-9c52-201b91b0b6ef"
+            }
+        ]
+      },
+      {
+        "userId": "46300",
+        "firstname": "Addison",
+        "lastname": "Raynor",
+        "friends": [
+            {
+              "id": "94c458b3-f9d2-4b88-874e-11b98a2b1913"
+            },
+            {
+              "id": "6043392f-5c7a-4906-a4d6-e723f568ef73"
+            },
+            {
+              "id": "9c184a35-0d65-429e-8278-2c03c3ec662a"
+            }
+        ]
+      },
+      {
+        "userId": "58904",
+        "firstname": "Adriana",
+        "lastname": "Bergstrom",
+        "friends": [
+            {
+              "id": "bd8a3a15-a557-4543-87e1-e5136226d476"
+            },
+            {
+              "id": "2414c107-5d95-4b55-8c37-79e68dd021ba"
+            },
+            {
+              "id": "a55f58bf-abd3-49ad-9f70-8d7dda156c58"
+            }
+        ]
+      }
+  ],
+  "total": "10"
+}{
+  "Templating example": "For more information about templating, click the blue 'i' above this editor",
+  "Roles": [
+      {
+        "id": "15",
+        "username": "Admin",
+      },
+      {
+        "id": "98",
+        "username": "SuperAdmin",
+      },
+      {
+        "id": "47",
+        "username": "User",
+      },
+      {
+        "id": "4",
+        "username": "Developer",
+      },
+      {
+        "id": "46",
+        "username": "Customer",
+      },
+  ],
+  "total": "10"
+}
