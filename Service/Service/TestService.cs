@@ -22,29 +22,21 @@ public class TestService : ITestService
     {
         var watch = Stopwatch.StartNew();
 
-        var orderResult = await _userClientService
+        var taskOrderRes = _userClientService
                                .SearchOrderAsync(cancellationToken);
-        watch.Stop();
-        _logger.LogInformation($" SearchOrderAsync service result time:{watch}");
-        File.AppendAllText("Result.txt", orderResult);
-        watch.Reset();
 
-        watch.Start();
-        var userResult = await _userClientService
+        var tasUserRes = _userClientService
                                .SearchUsersAsync(cancellationToken);
-        watch.Stop();
-        _logger.LogInformation($" SearchUsersAsync service result time:{watch}");
-        File.AppendAllText("Result.txt", userResult);
-        watch.Reset();
 
-
-        watch.Start();
-        var rolerResult = await _userClientService
+        var taskRoleRes = _userClientService
                                 .SearchRoleAsync(cancellationToken);
+
+        var res = await Task.WhenAll(taskOrderRes, tasUserRes, taskRoleRes);
+
         watch.Stop();
-        _logger.LogInformation($" SearchRoleAsync service result time:{watch}");
-        File.AppendAllText("Result.txt", rolerResult);
-        watch.Reset();
+        _logger.LogInformation($"service result time:{res}");
+
+        File.AppendAllText("Result.txt", String.Join("",res));
 
     }
 }
